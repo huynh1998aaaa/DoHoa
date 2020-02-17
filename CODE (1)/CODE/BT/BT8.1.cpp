@@ -1,7 +1,10 @@
 ﻿//Viet chuong trinh chieu sang hinh xuyen, su dung ham glutSolidTorus(), bo sung chuot de thay doi vi tri chieu sang
-#include <glut.h>
-#include <gl/GLU.h>
-#include <gl/GL.h>
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include <GL/GL.H>
+#include <stdio.h>
+#include <math.h>
+#include <cstddef>
 
 static int spin = 0;
 
