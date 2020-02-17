@@ -1,9 +1,10 @@
 //Ve va to mau hinh chop chu nhat vs cac dinh cho truoc. Nhan phim x,y,z de xoay
-#include <glut.h> // GLUT
-#include <GL/glu.h> // GLU
-#include <GL/gl.h> // OpenGL
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include <GL/GL.H>
 #include <stdio.h>
 #include <math.h>
+#include <cstddef>
 int a[3] = { 1.0,0.0,0.0 }, b[3] = { 0.0,0.0,-2.0 }, c[3] = { -2.0,0.0,2.0 }, d[3] = { 0.0,0.0,2.0 },
 e[3] = { 0.0,2.0,0.0 };
 float angle_x = 0.0;
