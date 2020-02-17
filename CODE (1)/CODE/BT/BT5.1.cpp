@@ -1,10 +1,11 @@
 //Ve lap phuong voi toa do cho truoc, dieu khien xoay theo truc x,y bang cac phim x,y tuong ung. Nhan ESC de thoat
 
-#include <glut.h>// GLUT
-#include <GL/glu.h> // GLU
-#include <GL/gl.h> // OpenGL
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include <GL/GL.H>
 #include <stdio.h>
 #include <math.h>
+#include <cstddef>
 int a[3] = { 1.0,1.0,1.0 }, b[3] = { 1.0,-1.0,1.0 }, c[3] = { -1.0,-1.0,1.0 }, d[3] = { -1.0,1.0,1.0 },
 e[3] = { 1.0,1.0,-1.0 }, f[3] = { 1.0,-1.0,-1.0 }, g[3] = { -1.0,-1.0,-1.0 }, h[3] = { -1.0,1.0,-1.0 };
 float angle_x = 0.0;
