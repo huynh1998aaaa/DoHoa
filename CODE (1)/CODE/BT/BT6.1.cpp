@@ -1,6 +1,10 @@
-#include <stdlib.h>
-#include <glut.h>
-
+//Vẽ mặt cong Bézier với tập điều khiển cho trước như trong thí dụ 6.2. Bổ sung việc thay đổi tọa độ điều khiển bằng bàn phím. 
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include <GL/GL.H>
+#include <stdio.h>
+#include <math.h>
+#include <cstddef>
 struct Point 
 {
 	float x;
