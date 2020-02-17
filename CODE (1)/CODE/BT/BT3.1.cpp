@@ -1,11 +1,6 @@
 //Ve hinh khep kin voi cac mau to
-#include <windows.h>
-#include <stdlib.h>
-#include <math.h>
-#include <iostream>
-#include <glut.h>
-#include <gl/GL.h>
-#include <gl/GLU.h> 
+#include <gl/glut.h>
+#include <gl/gl.h> 
 void myInit(void) {
 	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glPointSize(12.0);
