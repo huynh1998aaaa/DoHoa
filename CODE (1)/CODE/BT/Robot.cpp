@@ -1,6 +1,8 @@
-#include <glut.h>
-#include <GL/GLU.h>
-#include <GL/GL.h>
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include <GL/GL.H>
+#include <stdio.h>
+#include <math.h>
 
 static int shoulder = 0, elbow = 0, base = 0;
 void init(void)
