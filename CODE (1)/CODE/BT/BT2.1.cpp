@@ -1,6 +1,8 @@
 // VE DUONG TRON BANG THUAT TOAN TRUNG DIEM VOI BAN KINH VA TAM CHO TRUOC
-#include <glut.h>
-#include <stdio.h>
+#include <gl/glut.h> 
+#include <gl/gl.h> 
+#include <stdio.h> 
+
 class screenPoint
 {
 private:
