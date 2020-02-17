@@ -1,5 +1,9 @@
 ﻿//Ve hinh vuong, nhan phim trai chuot hinh vuong quay nguoc chieu kim dong ho, nhan phim phai chuot de dung
-#include <glut.h>
+#include <GL/glut.h>
+#include <GL/glu.h>
+#include <GL/GL.H>
+#include <stdio.h>
+#include <math.h>
 #include <cstddef>
 static GLfloat spin = 0.0; /* góc quay hiện tại của hình chữ nhật */
 void init(void)
