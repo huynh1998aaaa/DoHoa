@@ -1,8 +1,6 @@
 // VE DIEM ANH TREN CUA SO KHI DI VA NHAN PHIM CHUOT
-#include <windows.h>
-#include <math.h>
-#include <glut.h>
-#include <gl/GL.h>
+#include <gl/glut.h> 
+#include <gl/gl.h> 
 void myDisplay(void) {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glFlush();
